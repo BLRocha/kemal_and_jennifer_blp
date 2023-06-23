@@ -1,4 +1,4 @@
-# app
+# WEB API Crystal-lang
 
 A boilerplate for api creation with Crystal-lang, [Kemal web framework](https://github.com/kemalcr/kemal) and [jennifer orm](https://github.com/imdrasil/jennifer.cr).
 

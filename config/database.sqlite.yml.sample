@@ -1,0 +1,13 @@
+default: &default
+  host: "."
+  adapter: sqlite3
+  skip_dumping_schema_sql: true
+
+
+development:
+  <<: *default
+  db: sqlite_app.db
+
+test:
+  <<: *default
+  db: sqlite_app.db

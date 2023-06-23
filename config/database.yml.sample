@@ -1,0 +1,14 @@
+default: &default
+  host: localhost
+  user: developer
+  password: pwdsupersecret
+  adapter: postgres
+  skip_dumping_schema_sql: true
+
+development:
+  <<: *default
+  db: postgres_dev
+
+test:
+  <<: *default
+  db: postgres_dev

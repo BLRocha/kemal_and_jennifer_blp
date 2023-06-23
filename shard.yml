@@ -1,0 +1,28 @@
+name: app
+version: 0.1.0
+
+authors:
+  - Leandro Rocha <leandrorocha.bezerra@gmail.com>
+
+targets:
+  app:
+    main: src/app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: "0.18.0"
+  jennifer_sqlite3_adapter:
+    github: imdrasil/jennifer_sqlite3_adapter
+    version: "~> 0.4.0"
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.13.0"
+  sam:
+    github: imdrasil/sam.cr
+
+crystal: 1.8.2
+
+license: MIT
